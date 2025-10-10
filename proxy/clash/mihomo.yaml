@@ -332,6 +332,13 @@ proxy-groups:
 
 # 分流规则 
 rule-providers:
+  Custom:
+    url: 
+    path: ./ruleset/Custom.list
+    behavior: classical
+    interval: 86400
+    format:  text
+    type: http
   LocalAreaNetwork:
     url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
     path: ./ruleset/LocalAreaNetwork.list

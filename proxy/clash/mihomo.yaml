@@ -332,13 +332,6 @@ proxy-groups:
 
 # 分流规则 
 rule-providers:
-  Custom:
-    url: 
-    path: ./ruleset/Custom.list
-    behavior: classical
-    interval: 86400
-    format:  text
-    type: http
   LocalAreaNetwork:
     url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
     path: ./ruleset/LocalAreaNetwork.list
@@ -552,60 +545,6 @@ rule-providers:
 
 # 分流策略
 rules:
-## 自定义规则
-  - DOMAIN-SUFFIX,niceduck.lol,Emby
-  - DOMAIN-SUFFIX,niceduck.io,Proxy
-  - DOMAIN-KEYWORD,hongxingdl,Proxy
-  - DOMAIN-KEYWORD,clashcloud,Proxy
-  - DOMAIN-KEYWORD,katfile,Proxy
-  - DOMAIN-KEYWORD,pubg-file,DIRECT
-  - DOMAIN-SUFFIX,bookwalker.com.tw,TW台湾
-  - DOMAIN,api.bgm.tv,DIRECT
-  - DOMAIN-KEYWORD,paradox,DIRECT
-  - DOMAIN-KEYWORD,thetvdb,Proxy
-  - DOMAIN-KEYWORD,mox,Proxy
-  - DOMAIN-KEYWORD,kox,Proxy
-  - DOMAIN-KEYWORD,moxmoe,Proxy
-  - DOMAIN-KEYWORD,linkedin,Proxy
-  - DOMAIN-KEYWORD,yaasworker,DIRECT
-  - DOMAIN-KEYWORD,shareworker,DIRECT
-  - DOMAIN-KEYWORD,imoutoheaven,DIRECT
-  - DOMAIN-SUFFIX,pikpak.me,DIRECT
-  - DOMAIN-KEYWORD,fakku,JP日本
-  - DOMAIN-KEYWORD,m-team,Proxy
-  - DOMAIN-SUFFIX,x.com,Proxy
-  - DOMAIN-SUFFIX,asmr.one,Proxy
-  - DOMAIN-KEYWORD,thunderstore,DIRECT
-  - DOMAIN-KEYWORD,eyny,Proxy
-  - DOMAIN-SUFFIX,mikanani.me,Proxy
-  - DOMAIN-KEYWORD,wenku8,DIRECT
-  - DOMAIN-KEYWORD,fishport,Proxy
-  - DOMAIN-KEYWORD,gamer,TW台湾
-  - DOMAIN-KEYWORD,greasyfork,Proxy
-  - DOMAIN-KEYWORD,acgrip,Proxy
-  - DOMAIN-KEYWORD,cheatslips,Proxy
-  - DOMAIN-KEYWORD,pcgamestorrents,Proxy
-  - DOMAIN-KEYWORD,v2ex,Proxy
-  - DOMAIN-KEYWORD,gamebanana,Proxy
-  - DOMAIN-KEYWORD,loverslab,Proxy
-  - DOMAIN-KEYWORD,mega,Proxy
-  - DOMAIN-KEYWORD,gta5-mods,Proxy
-  - DOMAIN-KEYWORD,vrdesktop,Proxy
-  - DOMAIN-KEYWORD,forgecdn,Proxy
-  - DOMAIN-KEYWORD,curseforge,Proxy
-  - DOMAIN-KEYWORD,nexus-cdn,Proxy
-  - DOMAIN-KEYWORD,nexusmods,Proxy
-  - DOMAIN-KEYWORD,tsdm,Proxy
-  - DOMAIN-KEYWORD,nhentai,Proxy
-  - DOMAIN-KEYWORD,ehentai,Proxy
-  - DOMAIN-KEYWORD,downmagaz,Proxy
-  - DOMAIN,vol.moe,Proxy
-  - DOMAIN-KEYWORD,volmoe,Proxy
-  - DOMAIN-KEYWORD,vol,Proxy
-  - DOMAIN-KEYWORD,acgnx,Proxy
-  - DOMAIN-KEYWORD,nyaa,Proxy
-  - DOMAIN-KEYWORD,mayswind,Proxy
-  - DOMAIN-KEYWORD,reimu,Proxy
 ## 规则集
   - "RULE-SET,LocalAreaNetwork,Direct"
   - "RULE-SET,UnBan,Direct"

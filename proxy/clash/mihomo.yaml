@@ -1,0 +1,635 @@
+proxy-groups:
+  #分流分组
+  - name: Final
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
+    type: select
+    proxies:
+      - Proxy
+      - Direct
+
+  - name: Telegram
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
+    type: select
+    proxies:
+      - HK香港
+      - TW台湾
+      - JP日本
+      - KR韩国
+      - SG南洋
+      - US美国
+      - Auto
+      
+  - name: OpenAi
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bot.png
+    type: select
+    proxies:
+      - US美国
+      - HK香港
+      - TW台湾
+      - JP日本
+      - KR韩国
+      - SG南洋
+      - Select
+      - Direct
+      
+  - name: YouTube
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
+    type: select
+    proxies:
+      - HK香港
+      - TW台湾
+      - JP日本
+      - KR韩国
+      - SG南洋
+      - US美国
+      - Select
+      
+#  - name: Netflix
+#    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
+#    type: select
+#    proxies:
+#      - HK香港
+#      - TW台湾
+#      - JP日本
+#      - KR韩国
+#      - SG南洋
+#      - US美国
+#      - Auto
+#      - Select
+
+  - name: Bahamult
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png
+    type: select
+    proxies:
+      - TW台湾
+      
+  - name: Bilibili
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png
+    type: select
+    proxies:
+      - Direct
+      - TW台湾
+      - HK香港
+      
+  - name: ForeignMedia
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png
+    type: select
+    proxies:
+      - HK香港
+      - TW台湾
+      - JP日本
+      - KR韩国
+      - SG南洋
+      - US美国
+      - Auto
+      - Select
+      - Direct
+      
+  - name: DomesticMedia
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/DomesticMedia.png
+    type: select
+    proxies:
+      - Direct
+      - HK香港
+      - TW台湾
+      - SG南洋
+      - JP日本
+      - Select
+      
+#  - name: 谷歌FCM
+#    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png
+#    type: select
+#    proxies:
+#      - DIRECT
+#      - Select
+#      - US美国
+#      - HK香港
+#      - TW台湾
+#      - SG南洋
+#      - JP日本
+#      - KR韩国
+#      - 手动切换
+
+#  - name: MSBing
+#    icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/bing.png
+#    type: select
+#    proxies:
+#      - Direct
+#      - HK香港
+#      - TW台湾
+#      - JP日本
+#      - KR韩国
+#      - SG南洋
+#      - US美国
+#      - Auto
+#      - Select
+
+  - name: OneDrive
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/OneDrive.png
+    type: select
+    proxies:
+      - Direct
+      - HK香港
+      - TW台湾
+      - JP日本
+      - KR韩国
+      - SG南洋
+      - US美国
+      - Select
+      
+  - name: Microsoft
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png
+    type: select
+    proxies:
+      - Direct
+      - HK香港
+      - TW台湾
+      - JP日本
+      - KR韩国
+      - SG南洋
+      - US美国
+      - Auto
+      - Select
+      
+  - name: Apple
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png
+    type: select
+    proxies:
+      - Direct
+      - HK香港
+      - TW台湾
+      - JP日本
+      - KR韩国
+      - SG南洋
+      - US美国
+      - Select
+      
+  - name: Gaming
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
+    type: select
+    proxies:
+      - HK香港
+      - TW台湾
+      - JP日本
+      - KR韩国
+      - SG南洋
+      - US美国
+      - Direct
+      
+  - name: Emby
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png
+    include-all: true
+    filter: (?i)直连
+    type: url-test
+    interval: 300
+    tolerance: 50
+    
+  - name: Proxy
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+    type: select
+    proxies:
+      - HK香港
+      - TW台湾
+      - SG南洋
+      - JP日本
+      - US美国
+      - KR韩国
+      - Select
+      
+  - name: Direct
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png
+    type: select
+    proxies:
+      - DIRECT
+      - Select
+      - Auto
+      
+  - name: Select
+    icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
+    include-all: true
+    type: select
+    
+  - name: No-AD
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+      
+  - name: No-Hijack
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hijacking.png
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+
+  #节点分组
+  - name: Auto
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
+    type: url-test
+    include-all: true
+    filter: (?i)柬埔|马来|斯坦|尼泊|也纳|克兰|比利时|尔兰|立陶宛|冰岛|秘鲁|耳其|利亚|埃及|希腊|斯洛伐克|孟加|芬兰|阿联|卢森|英国|德国|南非|意大|法国|加拿|墨西|印度|越南|罗斯|瑞士|瑞典|智利|荷兰|比亚|巴西|沙特|班牙|泰国
+    interval: 300
+    tolerance: 50
+    
+  - name: HK香港
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
+    include-all: true
+    filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
+    type: url-test
+    interval: 300
+    tolerance: 50
+    
+  - name: JP日本
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
+    include-all: true
+    filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
+    type: url-test
+    interval: 300
+    tolerance: 50
+    
+  - name: US美国
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
+    include-all: true
+    filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
+    type: url-test
+    interval: 300
+    tolerance: 50
+    
+  - name: TW台湾
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
+    include-all: true
+    filter: (?i)台|新北|彰化|TW|Taiwan
+    type: url-test
+    interval: 300
+    tolerance: 50
+    
+  - name: SG南洋
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
+    include-all: true
+    filter: (?i)新加坡|坡|狮城|SG|Singapore
+    type: url-test
+    interval: 300
+    tolerance: 50
+    
+  - name: KR韩国
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
+    include-all: true
+    filter: (?i)KR|Korea|KOR|首尔|韩|韓
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+#  - name: 网易音乐
+#    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netease_Music.png
+#    type: select
+#    include-all: true
+#    filter: (?i)网易|音乐|NetEase|Music
+#    proxies:
+#      - DIRECT
+#      - Select
+#      - Auto
+
+#  - name: 奈飞节点
+#    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
+#    include-all: true
+#    filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media
+#    type: select
+
+#  - name: GLOBAL
+#    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
+#    include-all: true
+#    type: select
+#    proxies:
+#      - Select
+#      - Auto
+#      - Telegram
+#      - OpenAi
+#      - YouTube
+#      - Netflix
+#      - Bilibili
+#      - ForeignMedia
+#      - DomesticMedia
+#      - 谷歌FCM
+#      - MSBing
+#      - OneDrive
+#      - Microsoft
+#      - Apple
+#      - Gaming
+#      - 网易音乐
+#      - Direct
+#      - No-AD
+#      - No-Hijack
+#      - Final
+#      - HK香港
+#      - JP日本
+#      - US美国
+#      - TW台湾
+#      - SG南洋
+#      - KR韩国
+#      - 奈飞节点
+
+# 分流规则 
+rule-providers:
+  LocalAreaNetwork:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+    path: ./ruleset/LocalAreaNetwork.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  UnBan:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+    path: ./ruleset/UnBan.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BanAD:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    path: ./ruleset/BanAD.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BanProgramAD:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+    path: ./ruleset/BanProgramAD.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  GoogleFCM:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+    path: ./ruleset/GoogleFCM.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  GoogleCN:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+    path: ./ruleset/GoogleCN.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  SteamCN:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+    path: ./ruleset/SteamCN.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bing:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list
+    path: ./ruleset/Bing.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  OneDrive:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
+    path: ./ruleset/OneDrive.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Microsoft:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+    path: ./ruleset/Microsoft.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Apple:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+    path: ./ruleset/Apple.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Telegram:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+    path: ./ruleset/Telegram.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  OpenAi:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
+    path: ./ruleset/OpenAi.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  NetEaseMusic:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list
+    path: ./ruleset/NetEaseMusic.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Epic:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
+    path: ./ruleset/Epic.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Origin:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list
+    path: ./ruleset/Origin.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Sony:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
+    path: ./ruleset/Sony.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Steam:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
+    path: ./ruleset/Steam.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Nintendo:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list
+    path: ./ruleset/Nintendo.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  YouTube:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
+    path: ./ruleset/YouTube.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Netflix:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
+    path: ./ruleset/Netflix.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bahamut:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list
+    path: ./ruleset/Bahamut.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BilibiliHMT:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
+    path: ./ruleset/BilibiliHMT.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bilibili:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
+    path: ./ruleset/Bilibili.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaMedia:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
+    path: ./ruleset/ChinaMedia.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ProxyMedia:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+    path: ./ruleset/ProxyMedia.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ProxyGFWlist:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+    path: ./ruleset/ProxyGFWlist.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaDomain:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    path: ./ruleset/ChinaDomain.list
+    behavior: domain
+    interval: 86400
+    format: text
+    type: http
+  ChinaCompanyIp:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+    path: ./ruleset/ChinaCompanyIp.list
+    behavior: ipcidr
+    interval: 86400
+    format: text
+    type: http
+  Download:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+    path: ./ruleset/Download.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+
+# 分流策略
+rules:
+## 自定义规则
+  - DOMAIN-SUFFIX,niceduck.lol,Emby
+  - DOMAIN-SUFFIX,niceduck.io,Proxy
+  - DOMAIN-KEYWORD,hongxingdl,Proxy
+  - DOMAIN-KEYWORD,clashcloud,Proxy
+  - DOMAIN-KEYWORD,katfile,Proxy
+  - DOMAIN-KEYWORD,pubg-file,DIRECT
+  - DOMAIN-SUFFIX,bookwalker.com.tw,TW台湾
+  - DOMAIN,api.bgm.tv,DIRECT
+  - DOMAIN-KEYWORD,paradox,DIRECT
+  - DOMAIN-KEYWORD,thetvdb,Proxy
+  - DOMAIN-KEYWORD,mox,Proxy
+  - DOMAIN-KEYWORD,kox,Proxy
+  - DOMAIN-KEYWORD,moxmoe,Proxy
+  - DOMAIN-KEYWORD,linkedin,Proxy
+  - DOMAIN-KEYWORD,yaasworker,DIRECT
+  - DOMAIN-KEYWORD,shareworker,DIRECT
+  - DOMAIN-KEYWORD,imoutoheaven,DIRECT
+  - DOMAIN-SUFFIX,pikpak.me,DIRECT
+  - DOMAIN-KEYWORD,fakku,JP日本
+  - DOMAIN-KEYWORD,m-team,Proxy
+  - DOMAIN-SUFFIX,x.com,Proxy
+  - DOMAIN-SUFFIX,asmr.one,Proxy
+  - DOMAIN-KEYWORD,thunderstore,DIRECT
+  - DOMAIN-KEYWORD,eyny,Proxy
+  - DOMAIN-SUFFIX,mikanani.me,Proxy
+  - DOMAIN-KEYWORD,wenku8,DIRECT
+  - DOMAIN-KEYWORD,fishport,Proxy
+  - DOMAIN-KEYWORD,gamer,TW台湾
+  - DOMAIN-KEYWORD,greasyfork,Proxy
+  - DOMAIN-KEYWORD,acgrip,Proxy
+  - DOMAIN-KEYWORD,cheatslips,Proxy
+  - DOMAIN-KEYWORD,pcgamestorrents,Proxy
+  - DOMAIN-KEYWORD,v2ex,Proxy
+  - DOMAIN-KEYWORD,gamebanana,Proxy
+  - DOMAIN-KEYWORD,loverslab,Proxy
+  - DOMAIN-KEYWORD,mega,Proxy
+  - DOMAIN-KEYWORD,gta5-mods,Proxy
+  - DOMAIN-KEYWORD,vrdesktop,Proxy
+  - DOMAIN-KEYWORD,forgecdn,Proxy
+  - DOMAIN-KEYWORD,curseforge,Proxy
+  - DOMAIN-KEYWORD,nexus-cdn,Proxy
+  - DOMAIN-KEYWORD,nexusmods,Proxy
+  - DOMAIN-KEYWORD,tsdm,Proxy
+  - DOMAIN-KEYWORD,nhentai,Proxy
+  - DOMAIN-KEYWORD,ehentai,Proxy
+  - DOMAIN-KEYWORD,downmagaz,Proxy
+  - DOMAIN,vol.moe,Proxy
+  - DOMAIN-KEYWORD,volmoe,Proxy
+  - DOMAIN-KEYWORD,vol,Proxy
+  - DOMAIN-KEYWORD,acgnx,Proxy
+  - DOMAIN-KEYWORD,nyaa,Proxy
+  - DOMAIN-KEYWORD,mayswind,Proxy
+  - DOMAIN-KEYWORD,reimu,Proxy
+## 规则集
+  - "RULE-SET,LocalAreaNetwork,Direct"
+  - "RULE-SET,UnBan,Direct"
+  - "RULE-SET,BanAD,No-AD"
+  - "RULE-SET,BanProgramAD,No-Hijack"
+ # - "RULE-SET,GoogleFCM,谷歌FCM"
+  - "RULE-SET,GoogleCN,Direct"
+  - "RULE-SET,SteamCN,Direct"
+#  - "RULE-SET,Bing,MSBing"
+  - "RULE-SET,OneDrive,OneDrive"
+  - "RULE-SET,Microsoft,Microsoft"
+  - "RULE-SET,Apple,Apple"
+  - "RULE-SET,Telegram,Telegram"
+  - "RULE-SET,OpenAi,OpenAi"
+#  - "RULE-SET,NetEaseMusic,网易音乐"
+  - "RULE-SET,Epic,Gaming"
+  - "RULE-SET,Origin,Gaming"
+  - "RULE-SET,Sony,Gaming"
+  - "RULE-SET,Steam,Gaming"
+  - "RULE-SET,Nintendo,Gaming"
+  - "RULE-SET,YouTube,YouTube"
+#  - "RULE-SET,Netflix,Netflix"
+  - "RULE-SET,Bahamut,Bahamult"
+  - "RULE-SET,BilibiliHMT,Bilibili"
+  - "RULE-SET,Bilibili,Bilibili"
+  - "RULE-SET,ChinaMedia,DomesticMedia"
+  - "RULE-SET,ProxyMedia,ForeignMedia"
+  - "RULE-SET,ProxyGFWlist,Proxy"
+  - "RULE-SET,ChinaDomain,Direct"
+  - "RULE-SET,ChinaCompanyIp,Direct"
+  - "RULE-SET,Download,Direct"
+  - "GEOIP,CN,Direct"
+  - "MATCH,Final"
+

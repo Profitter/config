@@ -9,7 +9,7 @@ services:
       - TZ=Asia/Shanghai # Use TZ database name from https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
       # Comment these out if you do not use the flaresolverr container at the bottom of this file
       - FLARESOLVERR_ENABLED=true
-      - FLARESOLVERR_URL=http://45.12.53.216:8021
+      - FLARESOLVERR_URL=http://xx.xx.xx.xx:8021
 #  #################################################################################################
 #
 #    !!! IMPORTANT !!!

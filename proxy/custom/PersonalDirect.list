@@ -1,0 +1,11 @@
+## 自定义直连规则
+DOMAIN-KEYWORD,pubg-file
+DOMAIN,api.bgm.tv
+DOMAIN-KEYWORD,paradox
+DOMAIN-KEYWORD,yaasworker
+DOMAIN-KEYWORD,shareworker
+DOMAIN-KEYWORD,imoutoheaven
+DOMAIN-SUFFIX,pikpak.me
+DOMAIN-KEYWORD,thunderstore
+DOMAIN-KEYWORD,wenku8
+

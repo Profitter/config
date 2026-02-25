@@ -1,14 +1,14 @@
 proxy-groups:
   #分流分组
   - name: Final
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
     type: select
     proxies:
       - Proxy
       - Direct
 
   - name: Telegram
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
     type: select
     proxies:
       - HK香港
@@ -20,7 +20,7 @@ proxy-groups:
       - Auto
       
   - name: OpenAi
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bot.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bot.png
     type: select
     proxies:
       - US美国
@@ -33,7 +33,7 @@ proxy-groups:
       - Direct
       
   - name: YouTube
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
     type: select
     proxies:
       - HK香港
@@ -43,28 +43,15 @@ proxy-groups:
       - SG南洋
       - US美国
       - Select
-      
-#  - name: Netflix
-#    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
-#    type: select
-#    proxies:
-#      - HK香港
-#      - TW台湾
-#      - JP日本
-#      - KR韩国
-#      - SG南洋
-#      - US美国
-#      - Auto
-#      - Select
 
   - name: Bahamult
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bahamut.png
     type: select
     proxies:
       - TW台湾
       
   - name: Bilibili
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png
     type: select
     proxies:
       - Direct
@@ -72,7 +59,7 @@ proxy-groups:
       - HK香港
       
   - name: ForeignMedia
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ForeignMedia.png
     type: select
     proxies:
       - HK香港
@@ -86,7 +73,7 @@ proxy-groups:
       - Direct
       
   - name: DomesticMedia
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/DomesticMedia.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DomesticMedia.png
     type: select
     proxies:
       - Direct
@@ -96,36 +83,9 @@ proxy-groups:
       - JP日本
       - Select
       
-#  - name: 谷歌FCM
-#    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png
-#    type: select
-#    proxies:
-#      - DIRECT
-#      - Select
-#      - US美国
-#      - HK香港
-#      - TW台湾
-#      - SG南洋
-#      - JP日本
-#      - KR韩国
-#      - 手动切换
-
-#  - name: MSBing
-#    icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/bing.png
-#    type: select
-#    proxies:
-#      - Direct
-#      - HK香港
-#      - TW台湾
-#      - JP日本
-#      - KR韩国
-#      - SG南洋
-#      - US美国
-#      - Auto
-#      - Select
 
   - name: OneDrive
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/OneDrive.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/OneDrive.png
     type: select
     proxies:
       - Direct
@@ -138,7 +98,7 @@ proxy-groups:
       - Select
       
   - name: Microsoft
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
     type: select
     proxies:
       - Direct
@@ -152,7 +112,7 @@ proxy-groups:
       - Select
       
   - name: Apple
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
     type: select
     proxies:
       - Direct
@@ -165,7 +125,7 @@ proxy-groups:
       - Select
       
   - name: Gaming
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png
     type: select
     proxies:
       - HK香港
@@ -177,15 +137,13 @@ proxy-groups:
       - Direct
       
   - name: Emby
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png
-    include-all: true
-    filter: (?i)直连
-    type: url-test
-    interval: 300
-    tolerance: 50
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png
+    type: select
+    proxies:
+      - Select
     
   - name: Proxy
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png
     type: select
     proxies:
       - HK香港
@@ -197,7 +155,7 @@ proxy-groups:
       - Select
       
   - name: Direct
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Direct.png
     type: select
     proxies:
       - DIRECT
@@ -210,14 +168,14 @@ proxy-groups:
     type: select
     
   - name: No-AD
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/AdBlack.png
     type: select
     proxies:
       - REJECT
       - DIRECT
       
   - name: No-Hijack
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hijacking.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hijacking.png
     type: select
     proxies:
       - REJECT
@@ -226,7 +184,7 @@ proxy-groups:
 
   #节点分组
   - name: Auto
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png
     type: url-test
     include-all: true
     filter: (?i)柬埔|马来|斯坦|尼泊|也纳|克兰|比利时|尔兰|立陶宛|冰岛|秘鲁|耳其|利亚|埃及|希腊|斯洛伐克|孟加|芬兰|阿联|卢森|英国|德国|南非|意大|法国|加拿|墨西|印度|越南|罗斯|瑞士|瑞典|智利|荷兰|比亚|巴西|沙特|班牙|泰国
@@ -234,7 +192,7 @@ proxy-groups:
     tolerance: 50
     
   - name: HK香港
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
     include-all: true
     filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
     type: url-test
@@ -242,7 +200,7 @@ proxy-groups:
     tolerance: 50
     
   - name: JP日本
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
     include-all: true
     filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
     type: url-test
@@ -250,7 +208,7 @@ proxy-groups:
     tolerance: 50
     
   - name: US美国
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
     include-all: true
     filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
     type: url-test
@@ -258,7 +216,7 @@ proxy-groups:
     tolerance: 50
     
   - name: TW台湾
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
     include-all: true
     filter: (?i)台|新北|彰化|TW|Taiwan
     type: url-test
@@ -266,7 +224,7 @@ proxy-groups:
     tolerance: 50
     
   - name: SG南洋
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
     include-all: true
     filter: (?i)新加坡|坡|狮城|SG|Singapore
     type: url-test
@@ -274,61 +232,12 @@ proxy-groups:
     tolerance: 50
     
   - name: KR韩国
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
+    icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png
     include-all: true
     filter: (?i)KR|Korea|KOR|首尔|韩|韓
     type: url-test
     interval: 300
     tolerance: 50
-
-#  - name: 网易音乐
-#    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netease_Music.png
-#    type: select
-#    include-all: true
-#    filter: (?i)网易|音乐|NetEase|Music
-#    proxies:
-#      - DIRECT
-#      - Select
-#      - Auto
-
-#  - name: 奈飞节点
-#    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
-#    include-all: true
-#    filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media
-#    type: select
-
-#  - name: GLOBAL
-#    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
-#    include-all: true
-#    type: select
-#    proxies:
-#      - Select
-#      - Auto
-#      - Telegram
-#      - OpenAi
-#      - YouTube
-#      - Netflix
-#      - Bilibili
-#      - ForeignMedia
-#      - DomesticMedia
-#      - 谷歌FCM
-#      - MSBing
-#      - OneDrive
-#      - Microsoft
-#      - Apple
-#      - Gaming
-#      - 网易音乐
-#      - Direct
-#      - No-AD
-#      - No-Hijack
-#      - Final
-#      - HK香港
-#      - JP日本
-#      - US美国
-#      - TW台湾
-#      - SG南洋
-#      - KR韩国
-#      - 奈飞节点
 
 # 分流规则 
 rule-providers:
@@ -472,13 +381,6 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-  Netflix:
-    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
-    path: ./ruleset/Netflix.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
   Bahamut:
     url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list
     path: ./ruleset/Bahamut.list
@@ -542,31 +444,67 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-
+  PersonalGlobal:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Profitter/config/refs/heads/main/proxy/custom/PersonalGlobal.list
+    path: ./ruleset/PersonalGlobal.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  PersonalDirect:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Profitter/config/refs/heads/main/proxy/custom/PersonalDirect.list
+    path: ./ruleset/PersonalDirect.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Emby:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Profitter/config/refs/heads/main/proxy/custom/Emby.list
+    path: ./ruleset/Emby.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  RegionalJP:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Profitter/config/refs/heads/main/proxy/custom/RegionalJP.list
+    path: ./ruleset/RegionalJP.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  RegionalTW:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Profitter/config/refs/heads/main/proxy/custom/RegionalTW.list
+    path: ./ruleset/RegionalTW.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
 # 分流策略
 rules:
+## 自定义规则
+  - "RULE-SET,PersonalGlobal,Proxy"
+  - "RULE-SET,PersonalDirect,Direct"
+  - "RULE-SET,Emby,Emby"
+  - "RULE-SET,RegionalJP,JP日本"
+  - "RULE-SET,RegionalTW,TW台湾"
 ## 规则集
   - "RULE-SET,LocalAreaNetwork,Direct"
   - "RULE-SET,UnBan,Direct"
   - "RULE-SET,BanAD,No-AD"
   - "RULE-SET,BanProgramAD,No-Hijack"
- # - "RULE-SET,GoogleFCM,谷歌FCM"
   - "RULE-SET,GoogleCN,Direct"
   - "RULE-SET,SteamCN,Direct"
-#  - "RULE-SET,Bing,MSBing"
   - "RULE-SET,OneDrive,OneDrive"
   - "RULE-SET,Microsoft,Microsoft"
   - "RULE-SET,Apple,Apple"
   - "RULE-SET,Telegram,Telegram"
   - "RULE-SET,OpenAi,OpenAi"
-#  - "RULE-SET,NetEaseMusic,网易音乐"
   - "RULE-SET,Epic,Gaming"
   - "RULE-SET,Origin,Gaming"
   - "RULE-SET,Sony,Gaming"
   - "RULE-SET,Steam,Gaming"
   - "RULE-SET,Nintendo,Gaming"
   - "RULE-SET,YouTube,YouTube"
-#  - "RULE-SET,Netflix,Netflix"
   - "RULE-SET,Bahamut,Bahamult"
   - "RULE-SET,BilibiliHMT,Bilibili"
   - "RULE-SET,Bilibili,Bilibili"

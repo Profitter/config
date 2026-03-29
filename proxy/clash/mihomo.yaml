@@ -19,7 +19,7 @@ proxy-groups:
       - US美国
       - Auto
       
-  - name: OpenAi
+  - name: AI
     icon: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bot.png
     type: select
     proxies:
@@ -325,9 +325,9 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-  OpenAi:
-    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
-    path: ./ruleset/OpenAi.list
+  AI:
+    url: https://ghproxy.giuliobianchi.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list
+    path: ./ruleset/AI.list
     behavior: classical
     interval: 86400
     format: text
@@ -498,7 +498,7 @@ rules:
   - "RULE-SET,Microsoft,Microsoft"
   - "RULE-SET,Apple,Apple"
   - "RULE-SET,Telegram,Telegram"
-  - "RULE-SET,OpenAi,OpenAi"
+  - "RULE-SET,AI,AI"
   - "RULE-SET,Epic,Gaming"
   - "RULE-SET,Origin,Gaming"
   - "RULE-SET,Sony,Gaming"
